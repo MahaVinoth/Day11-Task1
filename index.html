@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main-container disp-ctrl">
+        <fieldset class="form-container">
+            <legend>Survey Form</legend>
+            <form id="survery-form">
+                <label for="name">Name<span class="mandatory-icon">&nbsp*</span></label></br></br>
+                
+                <div class="nameEl">
+                    <span class="name-input">
+                        <input class="textinput" type="text" required name = "first-name"/></br>
+                        <sub class="sublabel">First</sub>
+                    </span>
+                    <span class="name-input">
+                        <input class="textinput" type="text" required name = "last-name"/></br>
+                        <sub class="sublabel">Last</sub>
+                    </span>
+                </div></br></br>
+                <label for="email">Email<span class="mandatory-icon">&nbsp*</span></label></br></br>
+                <div class="nameEl">
+                    <span class="email-input">
+                        <input class="textinput" type="text" required name = "email"/></br>
+                    </span>
+                </div></br></br></br>
+                <!-- <label for="email">Email<span class="mandatory-icon">&nbsp*</span></label></br>
+                <input type="text" class="email-input" required name = "email"/></br></br> -->
+                <label for="email">Your Experience<span class="mandatory-icon">&nbsp*</span></label></br>
+                <span><img src="img/ratingstar.png" alt="rating" class="rating"></span></br>
+                <sub class="sublabel">Overall, how would you rate you experience with us?</sub></br></br></br>
+                <label>How satisfied are you with <span class="mandatory-icon">&nbsp*</span></label></br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Very Unsatisfied</th>
+                        <th>Unsatisfied</th>
+                        <th>Neutral</th>
+                        <th>Satisfied</th>
+                        <th>Very Satisfied</th>
+                    </tr>
+                    <tr>
+                        <td class="texttd">Purchase</td>
+                        <td><input type="radio" id="vusat"/></td>
+                        <td><input type="radio" id="usat"/></td>
+                        <td><input type="radio" id="ntrl"/></td>
+                        <td><input type="radio" id="sat"/></td>
+                        <td><input type="radio" id="vsat"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="texttd">Service</td>
+                        <td><input type="radio" id="vusat"/></td>
+                        <td><input type="radio" id="usat"/></td>
+                        <td><input type="radio" id="ntrl"/></td>
+                        <td><input type="radio" id="sat"/></td>
+                        <td><input type="radio" id="vsat"/></td>
+                    </tr>
+                    <tr>
+                        <td class="texttd">Company Overall</td>
+                        <td><input type="radio" id="vusat"/></td>
+                        <td><input type="radio" id="usat"/></td>
+                        <td><input type="radio" id="ntrl"/></td>
+                        <td><input type="radio" id="sat"/></td>
+                        <td><input type="radio" id="vsat"/></td>
+                    </tr>
+                </table></br>
+                <label>How likely are you to <span class="mandatory-icon">&nbsp*</span></label></br>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Very Unlikely</th>
+                        <th>Unlikely</th>
+                        <th>Neutral</th>
+                        <th>Likely</th>
+                        <th>Very Likely</th>
+                    </tr>
+                    <tr>
+                        <td class="texttd">Buy from us again</td>
+                        <td><input type="radio" id="vusat"/></td>
+                        <td><input type="radio" id="usat"/></td>
+                        <td><input type="radio" id="ntrl"/></td>
+                        <td><input type="radio" id="sat"/></td>
+                        <td><input type="radio" id="vsat"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="texttd">Recommend our product to others</td>
+                        <td><input type="radio" id="vusat"/></td>
+                        <td><input type="radio" id="usat"/></td>
+                        <td><input type="radio" id="ntrl"/></td>
+                        <td><input type="radio" id="sat"/></td>
+                        <td><input type="radio" id="vsat"/></td>
+                    </tr>
+                    <tr>
+                        <td class="texttd">Recommend our company to others</td>
+                        <td><input type="radio" id="vusat"/></td>
+                        <td><input type="radio" id="usat"/></td>
+                        <td><input type="radio" id="ntrl"/></td>
+                        <td><input type="radio" id="sat"/></td>
+                        <td><input type="radio" id="vsat"/></td>
+                    </tr>
+                </table></br>
+                <label>Additional comments or suggestions</label></br></br>
+                <textarea></textarea>
+                <input type="submit" class="submitbutton"/>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
